@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+	height:100%;
+	background: url(img/background.png);
+	font-family:Open Sans;
+}
+.myheader{
+	width:100%;
+	height:15%;
+	background-color:#9CC9FA;
+}
+.form-control{
+	margin-bottom:5px;
+}
+.loginform{
+	background:#D0D9DB;
+	width:400px;
+	height:250px;
+	position:absolute;
+	margin:auto;
+	bottom:0;
+	left:0;
+	top:300px;
+	right:0;
+	text-align:center;
+	vertical-align:middle;
+	border-radius:50px;
+}
+.registerform{
+	background:#D0D9DB;
+	width:400px;
+	height:480px;
+	position:absolute;
+	margin:auto;
+	bottom:0;
+	left:0;
+	top:500px;
+	right:0;
+	text-align:center;
+	vertical-align:middle;
+	border-radius:50px;
+}
+.logbutton{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:25px;
+	height:50px;
+}
+.circle { 
+   width: 50px;
+   height: 50px;
+   background: #006699; 
+   -moz-border-radius: 5px; 
+   -webkit-border-radius: 5px; 
+   border-radius: 5px;
+   text-align:center;
+   vertical-align:center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:4px;
+}
+.socicons{
+	display:inline-flex;
+}
+.facebook{
+	background-color:#3c5b9b;
+}
+.twitter{
+	background-color:#2daae1;
+}
+.gplus{
+	background-color:#f63f29;
+}
+a:hover{
+	text-decoration:none;
+}
